@@ -1,1 +1,188 @@
- 
+// Variables de Color Metro
+$yellow: #ffda00;
+$red: #fe0100;
+$dark-yellow: #fda407;
+$black: #333333;
+$gray: #777777;
+
+
+.nopadding{
+    padding: 0;
+}
+
+.nopadding-left{
+    padding-left: 0;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.supercont_delivery h2{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 20px;
+    line-height: 1;
+    border-bottom: 1px #efefef solid;
+    &:after{
+        content: '';
+            display: block;
+            height: 4px;
+            background-color: $red;
+            margin: 5px 0 0px;
+    }
+}
+
+.supercont_delivery h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+    line-height: 1.5;
+}
+
+.supercont_delivery{
+    .banner{
+        margin-bottom: 50px;
+        h1{
+            font-size: 25px;
+            font-weight: bold;
+            margin: 10px 0;
+            text-align: center;
+            &:after{
+                content: '';
+                display: block;
+                width: 120px;
+                height: 4px;
+                background-color: $yellow;
+                margin: 5px auto;
+            }
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .terms{
+        h2{
+            margin-bottom: 25px;
+            &:after{
+                width: 130px;
+            }
+        }
+
+        .box{
+            // padding: 30px;
+            min-height: 155px;
+            margin-bottom: 50px;
+            img{
+                width: 100px;
+                height: auto;
+                margin: 0 auto;
+            }
+
+            p{
+                text-align: center;
+            }
+        }
+
+        .shipping-cost{
+            border-left: solid 2px $dark-yellow;
+            border-right: solid 2px $dark-yellow;
+        }
+
+        .payment-method{
+            ul.list-1, ul.list-2{
+                text-align: center;
+                margin-bottom: 5px;
+                li{
+                    display: inline;
+                    padding: 0 5px;   
+                }
+            }
+
+            ul.list-1{
+                li{
+                    &:nth-child(2){
+                        border-left: solid 1px black;
+                        border-right: solid 1px black;
+                        padding-right: 10px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+
+            ul.list-2{
+                li{
+                    &:nth-child(2){
+                        border-left: solid 1px black;
+                        border-right: solid 1px black;
+                        padding-right: 10px;
+                        padding-left: 10px;
+                    }
+
+                    &:nth-child(3){
+                        border-right: solid 1px black;
+                        padding-right: 10px;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .information{
+        h2:after{
+            width: 420px; 
+        }
+
+        div{
+            height: 300px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+          
+            .inner {
+                padding-left: 1em;
+                overflow: hidden;
+                display: none;
+              
+                &.show {
+                  /*display: block;*/
+                }
+            }
+          
+            li {
+                
+              
+                a.toggle {
+                    
+                  
+                    &:hover {
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    .terms_conditions{
+        padding-bottom: 30px;
+        border-bottom: solid 15px $dark-yellow;
+        h2:after{
+            width: 220px; 
+        }
+
+        p{
+            font-size: 16px;
+            color: #777777;
+            width: 60%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }
+}

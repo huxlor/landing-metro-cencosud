@@ -669,4 +669,121 @@
   .col-lg-offset-0 {
     margin-left: 0; } }
 
+.nopadding {
+  padding: 0; }
+
+.nopadding-left {
+  padding-left: 0; }
+
+strong {
+  font-weight: bold; }
+
+.supercont_delivery h2 {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+  line-height: 1;
+  border-bottom: 1px #efefef solid; }
+  .supercont_delivery h2:after {
+    content: '';
+    display: block;
+    height: 4px;
+    background-color: #fe0100;
+    margin: 5px 0 0px; }
+
+.supercont_delivery h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5; }
+
+.supercont_delivery .banner {
+  margin-bottom: 50px; }
+  .supercont_delivery .banner h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center; }
+    .supercont_delivery .banner h1:after {
+      content: '';
+      display: block;
+      width: 120px;
+      height: 4px;
+      background-color: #ffda00;
+      margin: 5px auto; }
+  .supercont_delivery .banner img {
+    width: 100%; }
+
+.supercont_delivery .terms h2 {
+  margin-bottom: 25px; }
+  .supercont_delivery .terms h2:after {
+    width: 130px; }
+
+.supercont_delivery .terms .box {
+  min-height: 155px;
+  margin-bottom: 50px; }
+  .supercont_delivery .terms .box img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto; }
+  .supercont_delivery .terms .box p {
+    text-align: center; }
+
+.supercont_delivery .terms .shipping-cost {
+  border-left: solid 2px #fda407;
+  border-right: solid 2px #fda407; }
+
+.supercont_delivery .terms .payment-method ul.list-1, .supercont_delivery .terms .payment-method ul.list-2 {
+  text-align: center;
+  margin-bottom: 5px; }
+  .supercont_delivery .terms .payment-method ul.list-1 li, .supercont_delivery .terms .payment-method ul.list-2 li {
+    display: inline;
+    padding: 0 5px; }
+
+.supercont_delivery .terms .payment-method ul.list-1 li:nth-child(2) {
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.supercont_delivery .terms .payment-method ul.list-2 li:nth-child(2) {
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.supercont_delivery .terms .payment-method ul.list-2 li:nth-child(3) {
+  border-right: solid 1px black;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+.supercont_delivery .information h2:after {
+  width: 420px; }
+
+.supercont_delivery .information div {
+  height: 300px; }
+
+.supercont_delivery .information ul {
+  list-style: none;
+  padding: 0; }
+  .supercont_delivery .information ul .inner {
+    padding-left: 1em;
+    overflow: hidden;
+    display: none; }
+    .supercont_delivery .information ul .inner.show {
+      /*display: block;*/ }
+
+.supercont_delivery .terms_conditions {
+  padding-bottom: 30px;
+  border-bottom: solid 15px #fda407; }
+  .supercont_delivery .terms_conditions h2:after {
+    width: 220px; }
+  .supercont_delivery .terms_conditions p {
+    font-size: 16px;
+    color: #777777;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
 
