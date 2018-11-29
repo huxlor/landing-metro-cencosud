@@ -777,6 +777,11 @@ strong {
   padding-right: 10px;
   padding-left: 10px; }
 
+@media screen and (max-width: 769px) {
+  .supercont_delivery .terms .payment-method {
+    border-bottom: solid 2px #fda407;
+    padding-bottom: 45px; } }
+
 .supercont_delivery .information h2:after {
   width: 420px; }
   @media screen and (max-width: 769px) {
@@ -840,12 +845,14 @@ strong {
         .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min .accordion-section-min .accordion-section-title-min {
           display: block;
           text-align: center;
-          font-weight: bold; }
+          font-weight: bold;
+          margin-bottom: 10px; }
           @media screen and (max-width: 991px) {
             .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min .accordion-section-min .accordion-section-title-min {
               margin: 20px; } }
         .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min .accordion-section-min .accordion-section-content-min {
-          display: none; }
+          display: none;
+          margin-bottom: 10px; }
 
 .supercont_delivery .terms_conditions {
   padding-bottom: 30px;
@@ -862,7 +869,8 @@ strong {
     margin-bottom: 50px; }
     @media screen and (max-width: 769px) {
       .supercont_delivery .terms_conditions p {
-        width: 90%; } }
+        width: 90%;
+        font-size: 12px; } }
 
 .supercont_delivery.shipping .terms_conditions {
   border: none; }

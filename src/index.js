@@ -23,11 +23,9 @@ $(document).ready(function() {
 			var heightOne = $('.desktop-img').height();
 			var heightTwo = parseInt(heightOne);
 			$('.banner .right').height(heightTwo); 
-			console.log('Desktop');
 		}
 	   else {
 			$('.banner .right').height('auto');
-			console.log('Mobile');
 	   }
 	// Calc Height of Background Img
 
