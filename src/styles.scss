@@ -235,6 +235,9 @@ strong{
                                     display:  block;
                                     text-align: center;
                                     font-weight: bold;
+                                    @media screen and (max-width: 991px) {
+                                        margin: 20px;
+                                    }
                                 }
 
                                 .accordion-section-content-min{
@@ -283,6 +286,16 @@ strong{
             h2:after{
                 width: 250px;
             }
+
+            .accordion{
+                .accordion-min{
+                    .accordion-section-title-min{
+                        @media screen and (max-width: 991px) {
+                            margin: 20px;
+                        }
+                    }
+                }
+            }
         }
 
         .terms_conditions{
@@ -298,12 +311,20 @@ strong{
                 li {
                     padding-bottom:  10px;
                 }
+                @media screen and (max-width: 991px) {
+                    text-align: left;
+                    width: 85%;
+                    margin: 30px auto;
+                }
             }
         }
 
         .banner{
             .left{
                 padding-right: 0;
+                @media screen and (max-width: 991px) {
+                    padding-right: 15px;
+                }
                .desktop-img{
                     display: block;
                     @media screen and (max-width: 769px) {
@@ -328,6 +349,67 @@ strong{
                 padding-left: 0;
                 background-image: url('../images/Landing-Metro-Envios-Header-Textura.jpg');
                 background-size: 100%;
+                // padding-top: 55px;
+                @media screen and (max-width: 991px) {
+                    padding-left: 15px;
+                }
+                .icon{
+                    padding-right: 0;
+                    img{
+                        width: 80%;
+                        margin: 0 auto;
+                        @media screen and (max-width: 991px) {
+                            width: 30%;
+                        }
+                    }
+                }
+
+                .text{
+                    padding-top: 15px;
+                    padding-left: 0;
+                    @media screen and (max-width: 991px) {
+                        padding-top: 5px;
+                        padding-bottom: 10px;
+                        padding-left: 15px !important;
+                    }
+                    h4{
+                        font-weight: bold;
+                        font-size: 20px;
+                        color: #484848;
+                        @media screen and (max-width: 991px) {
+                            font-size: 14px;
+                            text-align: center;
+                        }
+                    }
+
+                    p{
+                        @media screen and (max-width: 991px) {
+                            font-size: 10px;
+                            text-align: center;
+                            padding: 0 10px;
+                        }
+
+                        @media screen and (max-width: 1285px) and (min-width: 992px){
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .row{
+                    margin-bottom: 10px;
+                    &:first-child{
+                        margin-top:50px;
+                        @media screen and (max-width: 1285px) and (min-width: 992px){
+                            margin-top: 25px;
+                        }
+                    }
+
+                    &:last-child{
+                        .text{
+                            padding-top: 0;
+                        }
+                    }
+                }
             }
         }
     }

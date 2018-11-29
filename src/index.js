@@ -18,9 +18,17 @@ $(document).ready(function() {
 	// }
 	// calcHeight();
 	// breakPoint.addListener(calcHeight);
-	var heightOne = $('.desktop-img').height();
-	var heightTwo = parseInt(heightOne);
-	$('.banner .right').height(heightTwo);
+	
+		if ($(window).width() > 991) {
+			var heightOne = $('.desktop-img').height();
+			var heightTwo = parseInt(heightOne);
+			$('.banner .right').height(heightTwo); 
+			console.log('Desktop');
+		}
+	   else {
+			$('.banner .right').height('auto');
+			console.log('Mobile');
+	   }
 	// Calc Height of Background Img
 
 

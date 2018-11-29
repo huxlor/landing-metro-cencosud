@@ -841,6 +841,9 @@ strong {
           display: block;
           text-align: center;
           font-weight: bold; }
+          @media screen and (max-width: 991px) {
+            .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min .accordion-section-min .accordion-section-title-min {
+              margin: 20px; } }
         .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min .accordion-section-min .accordion-section-content-min {
           display: none; }
 
@@ -871,6 +874,10 @@ strong {
 .supercont_delivery.shipping .information h2:after {
   width: 250px; }
 
+@media screen and (max-width: 991px) {
+  .supercont_delivery.shipping .information .accordion .accordion-min .accordion-section-title-min {
+    margin: 20px; } }
+
 .supercont_delivery.shipping .terms_conditions h2:after {
   width: 260px; }
 
@@ -881,9 +888,17 @@ strong {
   margin: 30px auto; }
   .supercont_delivery.shipping .terms_conditions ul.cont-list li {
     padding-bottom: 10px; }
+  @media screen and (max-width: 991px) {
+    .supercont_delivery.shipping .terms_conditions ul.cont-list {
+      text-align: left;
+      width: 85%;
+      margin: 30px auto; } }
 
 .supercont_delivery.shipping .banner .left {
   padding-right: 0; }
+  @media screen and (max-width: 991px) {
+    .supercont_delivery.shipping .banner .left {
+      padding-right: 15px; } }
   .supercont_delivery.shipping .banner .left .desktop-img {
     display: block; }
     @media screen and (max-width: 769px) {
@@ -902,4 +917,48 @@ strong {
   padding-left: 0;
   background-image: url(Landing-Metro-Envios-Header-Textura.jpg);
   background-size: 100%; }
+  @media screen and (max-width: 991px) {
+    .supercont_delivery.shipping .banner .right {
+      padding-left: 15px; } }
+  .supercont_delivery.shipping .banner .right .icon {
+    padding-right: 0; }
+    .supercont_delivery.shipping .banner .right .icon img {
+      width: 80%;
+      margin: 0 auto; }
+      @media screen and (max-width: 991px) {
+        .supercont_delivery.shipping .banner .right .icon img {
+          width: 30%; } }
+  .supercont_delivery.shipping .banner .right .text {
+    padding-top: 15px;
+    padding-left: 0; }
+    @media screen and (max-width: 991px) {
+      .supercont_delivery.shipping .banner .right .text {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 15px !important; } }
+    .supercont_delivery.shipping .banner .right .text h4 {
+      font-weight: bold;
+      font-size: 20px;
+      color: #484848; }
+      @media screen and (max-width: 991px) {
+        .supercont_delivery.shipping .banner .right .text h4 {
+          font-size: 14px;
+          text-align: center; } }
+    @media screen and (max-width: 991px) {
+      .supercont_delivery.shipping .banner .right .text p {
+        font-size: 10px;
+        text-align: center;
+        padding: 0 10px; } }
+    @media screen and (max-width: 1285px) and (min-width: 992px) {
+      .supercont_delivery.shipping .banner .right .text p {
+        font-size: 12px; } }
+  .supercont_delivery.shipping .banner .right .row {
+    margin-bottom: 10px; }
+    .supercont_delivery.shipping .banner .right .row:first-child {
+      margin-top: 50px; }
+      @media screen and (max-width: 1285px) and (min-width: 992px) {
+        .supercont_delivery.shipping .banner .right .row:first-child {
+          margin-top: 25px; } }
+    .supercont_delivery.shipping .banner .right .row:last-child .text {
+      padding-top: 0; }
 
