@@ -738,11 +738,13 @@ strong {
 
 .supercont_delivery .terms .box {
   min-height: 155px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding: 0; }
   .supercont_delivery .terms .box img {
     width: 45px;
     height: auto;
-    margin: 0 auto; }
+    margin: 0 auto;
+    display: block; }
   .supercont_delivery .terms .box p {
     text-align: center; }
   .supercont_delivery .terms .box h3 {
@@ -912,7 +914,7 @@ strong {
       margin: 30px auto; } }
 
 .supercont_delivery.shipping .banner .left {
-  padding-right: 0; }
+  padding: 0; }
   @media screen and (max-width: 991px) {
     .supercont_delivery.shipping .banner .left {
       padding-right: 15px; } }
@@ -932,22 +934,24 @@ strong {
 
 .supercont_delivery.shipping .banner .right {
   padding-left: 0;
+  padding-right: 0;
   background-image: url(Landing-Metro-Envios-Header-Textura.jpg);
   background-size: 100%; }
   @media screen and (max-width: 991px) {
     .supercont_delivery.shipping .banner .right {
       padding-left: 15px; } }
   .supercont_delivery.shipping .banner .right .icon {
-    padding-right: 0; }
+    padding: 0; }
     .supercont_delivery.shipping .banner .right .icon img {
       width: 47%;
-      margin: 0 auto; }
+      margin: 0 auto;
+      display: block; }
       @media screen and (max-width: 991px) {
         .supercont_delivery.shipping .banner .right .icon img {
           width: 18%; } }
   .supercont_delivery.shipping .banner .right .text {
     padding-top: 15px;
-    padding-left: 0; }
+    padding: 0; }
     @media screen and (max-width: 991px) {
       .supercont_delivery.shipping .banner .right .text {
         padding-top: 5px;
