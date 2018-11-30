@@ -94,13 +94,17 @@ strong{
             min-height: 155px;
             margin-bottom: 50px;
             img{
-                width: 100px;
+                width: 45px;
                 height: auto;
                 margin: 0 auto;
             }
 
             p{
                 text-align: center;
+            }
+
+            h3{
+                margin-top: 10px;
             }
         }
 
@@ -152,6 +156,10 @@ strong{
                         padding-left: 10px;
                     }
                 }
+            }
+
+            img{
+                width: 75px;
             }
 
             @media screen and (max-width: 769px) {
@@ -364,10 +372,10 @@ strong{
                 .icon{
                     padding-right: 0;
                     img{
-                        width: 80%;
+                        width: 47%;
                         margin: 0 auto;
                         @media screen and (max-width: 991px) {
-                            width: 30%;
+                            width: 18%;
                         }
                     }
                 }

@@ -736,11 +736,13 @@ strong {
   min-height: 155px;
   margin-bottom: 50px; }
   .supercont_delivery .terms .box img {
-    width: 100px;
+    width: 45px;
     height: auto;
     margin: 0 auto; }
   .supercont_delivery .terms .box p {
     text-align: center; }
+  .supercont_delivery .terms .box h3 {
+    margin-top: 10px; }
 
 .supercont_delivery .terms .shipping-cost {
   border-left: solid 2px #fda407;
@@ -776,6 +778,9 @@ strong {
   border-right: solid 1px black;
   padding-right: 10px;
   padding-left: 10px; }
+
+.supercont_delivery .terms .payment-method img {
+  width: 75px; }
 
 @media screen and (max-width: 769px) {
   .supercont_delivery .terms .payment-method {
@@ -931,11 +936,11 @@ strong {
   .supercont_delivery.shipping .banner .right .icon {
     padding-right: 0; }
     .supercont_delivery.shipping .banner .right .icon img {
-      width: 80%;
+      width: 47%;
       margin: 0 auto; }
       @media screen and (max-width: 991px) {
         .supercont_delivery.shipping .banner .right .icon img {
-          width: 30%; } }
+          width: 18%; } }
   .supercont_delivery.shipping .banner .right .text {
     padding-top: 15px;
     padding-left: 0; }
