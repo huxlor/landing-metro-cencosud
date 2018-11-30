@@ -732,6 +732,10 @@ strong {
   .supercont_delivery .terms h2:after {
     width: 130px; }
 
+@media screen and (min-width: 770px) {
+  .supercont_delivery .terms .col-md-4, .supercont_delivery .terms .col-lg-4 {
+    width: 33%; } }
+
 .supercont_delivery .terms .box {
   min-height: 155px;
   margin-bottom: 50px; }

@@ -89,6 +89,12 @@ strong{
             }
         }
 
+        .col-md-4, .col-lg-4{
+            @media screen and (min-width: 770px) {
+                width: 33%;
+            }
+        }
+
         .box{
             // padding: 30px;
             min-height: 155px;
