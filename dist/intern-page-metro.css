@@ -935,7 +935,7 @@ strong {
 .supercont_delivery.shipping .banner .right {
   padding-left: 0;
   padding-right: 0;
-  background-image: url(Landing-Metro-Envios-Header-Textura.jpg);
+  background-image: url("/arquivos/Landing-Metro-Envios-Header-Textura.jpg");
   background-size: 100%; }
   @media screen and (max-width: 991px) {
     .supercont_delivery.shipping .banner .right {
