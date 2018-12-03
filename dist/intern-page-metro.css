@@ -849,7 +849,7 @@ strong {
     .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content {
       display: none;
       padding-top: 10px; }
-      .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content p {
+      .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content p, .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content a {
         text-align: center; }
       .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min {
         overflow: hidden; }
@@ -864,6 +864,20 @@ strong {
         .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min .accordion-section-min .accordion-section-content-min {
           display: none;
           margin-bottom: 10px; }
+          .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min .accordion-section-min .accordion-section-content-min span {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-left: 2px; }
+            .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min .accordion-section-min .accordion-section-content-min span img {
+              width: 70%;
+              height: auto;
+              margin: 0 auto;
+              padding-top: 4px; }
+          .supercont_delivery .information .accordion .row .accordion-section .accordion-section-content .accordion-min .accordion-section-min .accordion-section-content-min a {
+            padding: 10px 0;
+            width: 100%;
+            display: block; }
 
 .supercont_delivery .terms_conditions {
   padding-bottom: 30px;
@@ -871,9 +885,9 @@ strong {
   .supercont_delivery .terms_conditions h2:after {
     width: 220px; }
   .supercont_delivery .terms_conditions p {
-    font-size: 16px;
+    font-size: 14px;
     color: #777777;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
     margin-top: 50px;
