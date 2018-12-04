@@ -678,6 +678,9 @@
 .nopadding-right {
   padding-right: 0; }
 
+.wrapper, .center {
+  min-width: initial !important; }
+
 strong {
   font-weight: bold; }
 
@@ -798,6 +801,13 @@ strong {
   @media screen and (max-width: 769px) {
     .supercont_delivery .information h2:after {
       width: 350px; } }
+  @media screen and (max-width: 400px) {
+    .supercont_delivery .information h2:after {
+      width: 255px; } }
+
+@media screen and (max-width: 400px) {
+  .supercont_delivery .information h2 {
+    padding-right: 20px; } }
 
 .supercont_delivery .information .accordion, .supercont_delivery .information .accordion * {
   -webkit-box-sizing: border-box;
@@ -931,7 +941,7 @@ strong {
   padding: 0; }
   @media screen and (max-width: 991px) {
     .supercont_delivery.shipping .banner .left {
-      padding-right: 15px; } }
+      padding-right: 0px; } }
   .supercont_delivery.shipping .banner .left .desktop-img {
     display: block; }
     @media screen and (max-width: 769px) {
@@ -953,7 +963,7 @@ strong {
   background-size: 100%; }
   @media screen and (max-width: 991px) {
     .supercont_delivery.shipping .banner .right {
-      padding-left: 15px; } }
+      padding-left: 0; } }
   .supercont_delivery.shipping .banner .right .icon {
     padding: 0; }
     .supercont_delivery.shipping .banner .right .icon img {
@@ -970,23 +980,32 @@ strong {
       .supercont_delivery.shipping .banner .right .text {
         padding-top: 5px;
         padding-bottom: 10px;
-        padding-left: 15px !important; } }
+        padding-left: 0; } }
     .supercont_delivery.shipping .banner .right .text h4 {
       font-weight: bold;
       font-size: 20px;
-      color: #484848; }
+      color: #484848;
+      padding-top: 18px; }
       @media screen and (max-width: 991px) {
         .supercont_delivery.shipping .banner .right .text h4 {
           font-size: 14px;
           text-align: center; } }
+      @media screen and (max-width: 380px) {
+        .supercont_delivery.shipping .banner .right .text h4 {
+          width: 60%;
+          margin: 0 auto; } }
     @media screen and (max-width: 991px) {
       .supercont_delivery.shipping .banner .right .text p {
         font-size: 10px;
         text-align: center;
-        padding: 0 10px; } }
+        padding: 0 10px;
+        width: 60%;
+        margin: 0 auto; } }
     @media screen and (max-width: 1285px) and (min-width: 992px) {
       .supercont_delivery.shipping .banner .right .text p {
         font-size: 12px; } }
+    .supercont_delivery.shipping .banner .right .text.especial h4 {
+      padding-top: 5px; }
   .supercont_delivery.shipping .banner .right .row {
     margin-bottom: 10px; }
     .supercont_delivery.shipping .banner .right .row:first-child {

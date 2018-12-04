@@ -18,6 +18,10 @@ $gray: #777777;
     padding-right: 0;
 }
 
+.wrapper, .center{
+    min-width: initial !important;
+}
+
 strong{
     font-weight: bold;
 }
@@ -183,6 +187,16 @@ strong{
             @media screen and (max-width: 769px) {
                 width: 350px;
             }
+
+            @media screen and (max-width: 400px) {
+                width: 255px;
+            }  
+        }
+
+        h2{
+            @media screen and (max-width: 400px) {
+                padding-right: 20px;
+            } 
         }
 
         .accordion,.accordion * {
@@ -367,7 +381,7 @@ strong{
             .left{
                 padding: 0;
                 @media screen and (max-width: 991px) {
-                    padding-right: 15px;
+                    padding-right: 0px;
                 }
                .desktop-img{
                     display: block;
@@ -396,7 +410,7 @@ strong{
                 background-size: 100%;
                 // padding-top: 55px;
                 @media screen and (max-width: 991px) {
-                    padding-left: 15px;
+                    padding-left: 0;
                 }
                 .icon{
                     padding: 0;
@@ -416,15 +430,21 @@ strong{
                     @media screen and (max-width: 991px) {
                         padding-top: 5px;
                         padding-bottom: 10px;
-                        padding-left: 15px !important;
+                        padding-left: 0;
                     }
                     h4{
                         font-weight: bold;
                         font-size: 20px;
                         color: #484848;
+                        padding-top: 18px;
                         @media screen and (max-width: 991px) {
                             font-size: 14px;
                             text-align: center;
+                        }
+
+                        @media screen and (max-width: 380px) {
+                            width: 60%;
+                            margin: 0 auto;
                         }
                     }
 
@@ -433,10 +453,18 @@ strong{
                             font-size: 10px;
                             text-align: center;
                             padding: 0 10px;
+                            width: 60%;
+                            margin: 0 auto;
                         }
 
                         @media screen and (max-width: 1285px) and (min-width: 992px){
                             font-size: 12px;
+                        }
+                    }
+
+                    &.especial{
+                        h4{
+                            padding-top: 5px;
                         }
                     }
                 }
